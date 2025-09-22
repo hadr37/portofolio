@@ -4,11 +4,10 @@
     <aside class="sidebar">
       <!-- Social Icons -->
       <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="mailto:ahmadhaidarsukoharjo@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://wa.me/6282331958295?text=Halo,%20saya%20mau%20bicara%20tentang%20portofolio%20Anda" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/mad.hadr?igsh=aGsyanYxeWJ2Mmpx"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/hadr37"><i class="fab fa-github"></i></a>
       </div>
 
       <!-- Info -->
