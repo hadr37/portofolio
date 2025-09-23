@@ -141,11 +141,11 @@ export default {
 }
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #ff7300;
+  border-color: #60a5fa;
   box-shadow: 0 0 5px rgba(255,115,0,0.3);
 }
 .contact-form button {
-  background: #ff7300;
+  background: #60a5fa;
   color: #fff;
   border: none;
   padding: 12px 20px;
@@ -155,7 +155,7 @@ export default {
   font-weight: bold;
 }
 .contact-form button:hover {
-  background: #e56300;
+  background: #60a5fa;
 }
 
 /* Info */
@@ -171,7 +171,7 @@ export default {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .info-box .icon {
-  background: #ff7300;
+  background: #60a5fa;
   color: #fff;
   width: 35px;
   height: 35px;

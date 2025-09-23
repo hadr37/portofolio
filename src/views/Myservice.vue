@@ -178,7 +178,7 @@ export default {
 }
 
 .service-card.hovered {
-  background: linear-gradient(135deg, #ff7b47, #ff6b35);
+  background: linear-gradient(135deg, #1e3a8a, #1e3a8a);
   color: #fff;
   justify-content: center;
 }
@@ -186,7 +186,7 @@ export default {
 .service-icon {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #ff7300;
+  color: #1e3a8a;
 }
 
 .service-card.hovered .service-icon {
