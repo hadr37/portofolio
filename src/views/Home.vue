@@ -1,3 +1,26 @@
+<script setup>
+import Info from '../components/Info.vue'
+</script>
+<script>
+export default {
+  name: "HomePage",
+  data() {
+    return {
+      majorSkills: [
+        { name: "Html", percent: 90 },
+        { name: "CSS", percent: 80 },
+        { name: "UI Design", percent: 90 },
+        { name: "JavaScript", percent: 70 },
+        { name: "WordPress", percent: 80 }
+      ],
+      extraSkills: [
+        "Bootstrap", "Vue", "Laravel", "Figma",
+        "Flutter", "Phyton", "Artificial Intelligent", "Canva",
+      ]
+    };
+  }
+};
+</script>
 <template>
   <div class="home-page">
     <!-- Sidebar Kiri -->
@@ -10,15 +33,7 @@
         <a href="https://github.com/hadr37"><i class="fab fa-github"></i></a>
       </div>
 
-      <!-- Info -->
-      <div class="info">
-        <p><b>Email:</b> ahmadhaidarsukoharjo@gmail.com</p>
-        <p><b>Phone:</b> +62  856 587 235</p>
-        <p><b>Country:</b> Indonesia</p>
-        <p><b>Prov:</b> Central Java</p>
-        <p><b>City:</b> Surakarta</p>
-        <p><b>Language:</b> English, Indonesian</p>
-      </div>
+      <Info /> 
 
       <!-- Major Skills -->
       <div class="skills">
@@ -69,26 +84,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "HomePage",
-  data() {
-    return {
-      majorSkills: [
-        { name: "Html", percent: 90 },
-        { name: "CSS", percent: 80 },
-        { name: "UI Design", percent: 90 },
-        { name: "JavaScript", percent: 70 },
-        { name: "WordPress", percent: 80 }
-      ],
-      extraSkills: [
-        "Bootstrap", "Vue", "Laravel", "Figma",
-        "Flutter", "Phyton", "Artificial Intelligent", "Canva",
-      ]
-    };
-  }
-};
-</script>
 
 <style scoped>
 .home-page {
